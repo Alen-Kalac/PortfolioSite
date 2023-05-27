@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ProfilePhoto from "../../Images/ProfilePhoto.jpg";
+import ProfilePhoto from "./ProfilePhoto.jpg"
 import Screen from "../../components/displayScreen/Screen";
 import Header from "../../components/Header/Header";
 import {NavLink, Route, Routes} from 'react-router-dom'
