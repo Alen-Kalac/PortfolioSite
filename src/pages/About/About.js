@@ -2,10 +2,11 @@ import React from "react";
 import "./About.css";
 import ProfilePhoto from "../../Images/ProfilePhoto.jpg";
 import Screen from "../../components/displayScreen/Screen";
-
+import Header from "../../components/Header/Header";
+import {NavLink, Route, Routes} from 'react-router-dom'
 function About() {
   let funStatus = false;
-  const nameHandler = (event) => {
+const nameHandler = (event) => {
     if (funStatus === false) {
       funStatus = true;
       const name = event.target.innerText;
@@ -36,6 +37,7 @@ function About() {
   return (
     <>
       <div className="hero-section">
+        <Header/>
         <div className="hero-section-content">
           <div className="text-wrapper">
             <h1 className="name" onMouseOver={nameHandler}>
@@ -60,4 +62,5 @@ function About() {
     </>
   );
 }
+
 export default About;

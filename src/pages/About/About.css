@@ -1,8 +1,10 @@
 .hero-section{
+  display: flex;
+  flex-direction: column;
     width: 100%;
     height: 100vh;
     background-color: lightblue;
-    padding: 2%;
+    padding: 0 2%;
   }
   .hero-section-content{
     background-color: lightcoral;
