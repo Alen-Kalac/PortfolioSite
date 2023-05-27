@@ -4,43 +4,8 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-.hero-section{
-  width: 100%;
-  height: 100vh;
-  background-color: lightblue;
-  padding: 2%;
-}
-.hero-section-content{
-  background-color: lightcoral;
-  width: 100%;
-  height: 100%;
+body{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-wrapper{
-  background-color: lightsalmon;
-  width: 60%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
-}
-.text-wrapper .name  {
-  font-size: 8rem;
-  margin:  3rem 0;
-  
-}
-.text-wrapper .description {
-  padding-right: 5rem;
-}
-.hero-section-content .image-wrapper{
-  height: 80%;
-  width: 40%;
-}
-.hero-section-content .image-wrapper img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  align-items: center;
 }
