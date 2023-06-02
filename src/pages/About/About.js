@@ -3,7 +3,6 @@ import "./About.css";
 import ProfilePhoto from "./ProfilePhoto.jpg"
 import Screen from "../../components/displayScreen/Screen";
 import Header from "../../components/Header/Header";
-import {NavLink, Route, Routes} from 'react-router-dom'
 function About() {
   let funStatus = false;
 const nameHandler = (event) => {
@@ -19,8 +18,11 @@ const nameHandler = (event) => {
           .split("")
           .map((letter, index) => {
             if (index < iterations) {
+              
               return name[index];
             }
+          
+
             return letters[Math.floor(Math.random() * 27)];
           })
           .join("");
